@@ -1,0 +1,25 @@
+body > div.background {
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    max-width: 100vw;
+    display: flex;
+    background-image: url("./images/background.jpg");
+}
+
+.white {
+    color: white;
+}
+
+.circular-square { 
+    border-top-left-radius: 50% 50%; 
+    border-top-right-radius: 50% 50%; 
+    border-bottom-right-radius: 50% 50%; 
+    border-bottom-left-radius: 50% 50%; 
+}
+
+.feature-circle {
+    border-radius: 2%;
+}
